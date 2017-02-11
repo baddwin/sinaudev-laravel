@@ -21,7 +21,7 @@ return [
      *          storage/MyProject-2a4d6aaa4413.json
      * 
      */
-    'jsonFilePath' => env('GSUITE_JSON_FILE', ''),
+    'jsonFilePath' => storage_path(env('GSUITE_JSON_FILE', '')),
 
     /*
      * Here you should pass an array of needed scopes depending on what service you will be using.
