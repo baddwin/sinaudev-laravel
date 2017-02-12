@@ -11,6 +11,13 @@
                     You are logged in!
                 </div>
             </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">Analytics</div>
+
+                <div class="panel-body">
+                    <a href="{{ route('analytics') }}" class="btn btn-success">Head to analytics page</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

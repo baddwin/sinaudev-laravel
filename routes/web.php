@@ -17,5 +17,5 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
-Route::get('/home/analytics', 'AnalyticsController@index');
+Route::get('/home', ['uses' => 'HomeController@index', 'as' => 'admin']);
+Route::get('/home/analytics', ['uses' => 'AnalyticsController@index', 'as' => 'analytics']);
